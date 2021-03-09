@@ -226,7 +226,7 @@ __help__ = """
 • *Games* 🎲 *:*
  • `/truth`*:* Get ready to reveal a surprising truth🤫
  • `/dare`*:* A dare is on way 😈
- • `/igris`*:* Summon up IGRIS
+ • `/Krabbypatty`*:* Summon Krabby Patty
  • `/insult`*:* Insult the person
  • `/decide`*:* Randomly answers yes/no/maybe/idk
  • `/toss`*:* Tosses A coin
@@ -236,7 +236,7 @@ __help__ = """
 
 INSULT_HANDLER = DisableAbleCommandHandler("insult", insult)
 ARISE_HANDLER = DisableAbleCommandHandler("arise", arise)                                      
-IGRIS_HANDLER = DisableAbleCommandHandler("igris", igris)
+IGRIS_HANDLER = DisableAbleCommandHandler("krabbypatty", igris)
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth)
 DARE_HANDLER = DisableAbleCommandHandler("dare", dare)
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize)
