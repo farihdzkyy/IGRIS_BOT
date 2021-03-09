@@ -179,11 +179,11 @@ IGRIS_STRINGS = (
       "First Krabby is coming", 
       "I Only Serve To squidward, JUST KIDDING", 
       "When you call Patrick?", 
-      "*No this id patrick*", 
+      "*No this is patrick*", 
       "STOP PATRICK!", 
-      "Here we go again", 
+      "Ah shit,Here we go again", 
       "Patrick,*Joined the Chat*", 
-      "Yaaaaaaa?", 
+      "Yaaaaaaa? This is spongebob", 
       "Krabby is good", 
       "Okay, Let's Go", 
       "Let's do this", 
@@ -459,7 +459,7 @@ EARS = [
 TOSS = (
     "Heads",
     "Tails",
-    "IGRIS ATE THE COIN", 
+    "Spongebob Toss", 
 )
 
 DECIDE = ("Yes.", "No.", "Maybe.", " Ask GodLike.","Ask ZekXx.")
