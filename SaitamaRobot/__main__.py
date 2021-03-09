@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 I'm a chef at the Krusty Krab! You want to order something? Message @krustykrabroobot!
-I hope I'm happy after using me! Type help for feature!
+I hope I'm happy after using me! Type /help for feature!
 """
 
 HELP_STRINGS = """
@@ -180,11 +180,11 @@ def start(update: Update, context: CallbackContext):
                           ], 
                           [
                               InlineKeyboardButton(
-                              text="🍁Support Group🍁",
+                              text="🍁Support Group",
                               url=f"https://t.me/VohaUnion"),
                               InlineKeyboardButton(
-                              text="✨Updates Channel✨",
-                              url="https://t.me/VohaUpdate")
+                              text="Updates Channel🎗️",
+                              url="https://t.me/VohaUpdate/18")
                           ]])) 
     else:
         update.effective_message.reply_text(
