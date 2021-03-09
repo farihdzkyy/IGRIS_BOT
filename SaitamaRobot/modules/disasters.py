@@ -589,7 +589,7 @@ Group admins/group owners do not need these commands.
  ╠ `/eval`*:* Self explanatory
  ╠ `/sh`*:* Self explanator
  ╚ `/py`*:* Self explanatory
-
+Go To @krustykrabroobot for krabby patty!
 Visit @VohaUnion for more information.
 """
 
@@ -626,7 +626,7 @@ dispatcher.add_handler(SUPPORTLIST_HANDLER)
 dispatcher.add_handler(SUDOLIST_HANDLER)
 dispatcher.add_handler(GUILD_HANDLER)
 
-__mod_name__ = "HUNTERS"
+__mod_name__ = "KrustyKrab"
 __handlers__ = [
     SUDO_HANDLER, SUPPORT_HANDLER, TIGER_HANDLER, WHITELIST_HANDLER,
     UNSUDO_HANDLER, UNSUPPORT_HANDLER, UNTIGER_HANDLER, UNWHITELIST_HANDLER,
