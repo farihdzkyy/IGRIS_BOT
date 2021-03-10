@@ -271,26 +271,26 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe HUNTER SKILL of this person is 'INFINITE'."
+        text += "\n\nThe Bottom Skill of this person is 'Harold Krabs'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is CO-OWNER of '🍁SOLO•GUILD🍁'."
+        text += "\n\nThis user is CO-OWNER of 'Sandy'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe HUNTER SKILL of this person is 'S-RANK'."
+        text += "\n\nThe Bottom Skill of this person is 'SpongeBob'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe HUNTER SKILL of this person is 'A-RANK'."
+        text += "\n\nThe Bottom Skill of this person is 'Patrick'."
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThe HUNTER SKILL of this person is 'B-RANK'."
+        text += "\n\nThe Bottom Skill of this person is 'Squidward'."
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe HUNTER SKILL of this person is 'C-RANK'."
+        text += "\n\nThe Bottom Skill of this person is 'Plankton'."
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/IGRISROBOT_SUPPORT/2">?</a>]'.format(
+        text += ' [<a href="">?</a>]'.format(
             bot.username)
 
     try:
