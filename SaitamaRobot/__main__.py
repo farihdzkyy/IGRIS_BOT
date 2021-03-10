@@ -51,6 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+Hello User! {} You Want Krabby patty?
 I'm a chef at the Krusty Krab! You want to order something? Message @krustykrabroobot!
 I hope I'm happy after using me! Type /help for feature!
 """
